@@ -1,0 +1,97 @@
+/*Style on the border of column*/
+.colborder{
+	background-color: #122550;
+	color: white;
+	box-shadow: 1px 1px 10px #012290f7,
+                1px 1px 20px #0053b8f7
+}
+.colborder:hover{
+    transform: translateY(-7px);
+}
+
+/*testimonials shadow*/
+.shad{
+	box-shadow: 1px 1px 10px #cccccc,
+                1px 1px 20px #99cccc
+}
+/*header and Footer background color with color*/
+.bgc{
+	background-color:  #000033;
+}
+
+.active a{
+	text-decoration: none;
+	font-weight: 500;
+	color: white;
+}
+.active a:hover{
+	color: blue;
+}
+
+
+/*on link of about more&CV*/
+
+.lnk{
+text-align: center;
+}
+.lnk a{
+	text-decoration: none;
+	font-weight: 700;
+}
+.lnk a:hover{
+	font-weight: 650;
+	color: green;
+}
+
+/*for contact*/
+input[type=submit]{
+	background-color: #000033;
+	font-weight: bold;
+}
+input[type=reset]{
+	background-color: firebrick;
+	font-weight: bold;
+}
+label{
+	color: #000033;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+input[type=text],input[type=email],input[type=number],textarea{
+	border:3px solid #000033;
+}
+.mes{
+	height: 100px;
+}
+
+/*header links*/
+.links{
+
+}
+.links a{
+	color: white;
+	font-weight: 600;
+	font-size: 20px;
+	padding: 10px;
+	padding-left: 15px;
+}
+
+
+/*copying somewhere*/
+
+.coursel{
+	height: 600px;
+	background-size: cover;
+}
+.items{
+	background-color: rgb(0,0,100,0.5);
+	height: 600px;
+}
+.downitem{
+	margin-top: -17px;
+	height: 50px;
+}
+.topitem{
+	height: 50px;
+}
